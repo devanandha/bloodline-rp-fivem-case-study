@@ -58,6 +58,14 @@ It included:
 - job-specific garages
 - integration with the wider economy
 
+#### Visual evidence
+
+| Dealership & stock | Vehicle purchase | Persistent garage |
+|---|---|---|
+| ![Luxury Motors showroom](luxury-motors-showroom.png) | ![Vehicle purchase details](vehicle-purchase-details.png) | ![Garage vehicle management](garage-vehicle-management.png) |
+
+*The screenshots above show the dealership catalogue, vehicle purchase/detail flow, and owned-vehicle garage management running inside the Bloodline RP environment.*
+
 ### 2. Fuel & Economy Systems
 
 Bloodline RP included a player-facing refuelling system connected to a larger business-management layer.
@@ -88,6 +96,14 @@ A separate Bloodline Fuel Company management interface included:
 
 This demonstrates how a small gameplay interaction could be connected to a broader economic and operational system.
 
+#### Visual evidence
+
+| Player refuelling | Fuel company operations |
+|---|---|
+| ![Bloodline fuel refuelling interface](bloodline-fuel-refuelling.png) | ![Fuel company dashboard](fuel-company-dashboard.png) |
+
+*The player-facing refuelling workflow sits alongside a broader fuel-company dashboard for inventory, station and business management.*
+
 ### 3. EMS & Role-Based Systems
 
 The server included role-specific gameplay and interfaces for EMS and other jobs.
@@ -100,6 +116,14 @@ Examples included:
 - payment/economy logic
 - role-based interactions
 - job-specific locations and garages
+
+#### Visual evidence
+
+| EMS operations | Bloodline EMS | EMS garage |
+|---|---|---|
+| ![EMS dashboard](ems-dashboard.png) | ![Bloodline EMS interface](bloodline-ems-interface.png) | ![EMS vehicle garage](ems-vehicle-garage.png) |
+
+*These screens demonstrate role-specific interfaces and vehicle access integrated into the wider server.*
 
 ### 4. Business & Shop Systems
 
@@ -116,6 +140,12 @@ Features demonstrated in the project included:
 - bank withdrawal
 - interactive purchase interfaces
 
+#### Visual evidence
+
+| Player shop | Owner management |
+|---|---|
+| ![Bloodline shop interface](bloodline-shop-interface.png) | ![Business owner dashboard](business-owner-dashboard.png) |
+
 ### 5. Deployable Item System
 
 The server included an interactive tent system in which a player could purchase a tent pack and deploy it into the game world.
@@ -127,6 +157,14 @@ This connected:
 - inventory/item logic
 - world-object placement
 - player interaction
+
+#### Visual evidence
+
+| Purchase flow | Deployed world object |
+|---|---|
+| ![Tent purchase system](tent-purchase-system.png) | ![Deployed tent system](deployed-tent-system.png) |
+
+*Together these show the transition from an interactive purchase flow to an item deployed in the game world.*
 
 ### 6. Competitive TDM / FFA System
 
@@ -146,6 +184,12 @@ The TDM/FFA system included:
 
 This was designed as a distinct gameplay mode accessible from within the wider Bloodline environment.
 
+#### Visual evidence
+
+| TDM menu | Private room configuration | Public FFA |
+|---|---|---|
+| ![Bloodline TDM menu](bloodline-tdm-menu.png) | ![TDM private room configuration](tdm-private-room-configuration.png) | ![FFA public arenas](ffa-public-arenas.png) |
+
 ### 7. Spawn & World Configuration
 
 The server included a custom spawn-location flow and a large configured world containing jobs, garages, shops, services, repair locations, police infrastructure, delivery activities, fishing, and Bloodline-branded locations.
@@ -159,6 +203,14 @@ Example spawn locations included:
 - beach
 
 The world configuration connected these systems into a coherent player experience.
+
+#### Visual evidence
+
+| Spawn selection | Bloodline locations | Jobs & services |
+|---|---|---|
+| ![Spawn location system](spawn-location-system.png) | ![Bloodline map locations](bloodline-map-locations.png) | ![Server jobs and services map](server-jobs-services-map.png) |
+
+*These screens document player entry and the wider configured world of Bloodline-branded locations, jobs and services.*
 
 ## Engineering Approach
 
@@ -178,9 +230,9 @@ Typical work included:
 
 ## Evidence
 
-The repository will include curated screenshots showing the systems operating in-game.
+This repository includes curated screenshots showing the systems operating in-game. The images are grouped alongside the relevant technical sections above so each visual is tied to the functionality it demonstrates.
 
-Planned evidence categories:
+Current technical evidence categories:
 
 - vehicle and dealership systems
 - garage and vehicle transfer
@@ -206,23 +258,7 @@ This section will focus on actual adoption and participation rather than using g
 
 ## Repository Structure
 
-```text
-bloodline-rp-fivem-case-study/
-├── README.md
-├── assets/
-│   ├── screenshots/
-│   │   ├── vehicles/
-│   │   ├── fuel/
-│   │   ├── ems/
-│   │   ├── businesses/
-│   │   ├── tdm/
-│   │   └── world/
-│   └── community/
-└── docs/
-    ├── architecture.md
-    ├── contribution-and-authorship.md
-    └── community-impact.md
-```
+The repository currently keeps the curated evidence images at the repository root so the case-study README can reference them directly. Supporting documentation and community-impact evidence can be added separately as the case study develops.
 
 ## Technology Context
 

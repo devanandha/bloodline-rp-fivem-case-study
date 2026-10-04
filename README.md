@@ -250,11 +250,60 @@ Community and adoption evidence will be documented separately from technical evi
 
 ## Community & Impact
 
-Bloodline RP also involved building and managing a player community around the technical project.
+Bloodline RP was deployed and operated as a live FiveM roleplay community supported by a structured Discord-based onboarding and whitelist workflow. This section documents community scale and the operational process separately from the technical implementation evidence above.
 
-Evidence for this section will include verifiable community material such as Discord activity, membership, whitelist/application records, and other historical project evidence where appropriate.
+### Community Scale
 
-This section will focus on actual adoption and participation rather than using gameplay screenshots as a substitute for impact evidence.
+The Bloodline City Discord reached **219 members** at the time captured in the community evidence.
+
+![Bloodline City Discord member count showing 219 members](Discord%20memeber%20count.jpeg)
+
+*Discord member-management view showing an aggregate total of 219 members. Personal information has been redacted in the published evidence.*
+
+### Whitelist Application
+
+Prospective players could begin a structured passport/whitelist application before receiving access to the roleplay environment.
+
+![Bloodline City whitelist application](Whitelist%20Application.jpeg)
+
+*Bloodline City whitelist application entry point.*
+
+### Verification & Interview Workflow
+
+Applications progressed through a verification stage, with successful verification leading to an interview before a final decision.
+
+![Bloodline City application verification workflow](Discord%20Application%20Verification.jpeg)
+
+*Operational application-processing workflow. User-identifying information has been redacted.*
+
+### Accepted Applications
+
+Successful applicants could be approved and granted the appropriate community/server access after completing the process.
+
+![Bloodline City accepted whitelist workflow](Whitelist_Accepted.jpeg)
+
+*Example of the accepted-application workflow. User-identifying information has been redacted.*
+
+### Rejected Applications
+
+The process also supported rejected outcomes rather than automatically admitting every applicant.
+
+![Bloodline City rejected whitelist workflow](Whitelist_Rejected.jpeg)
+
+*Example of the rejected-application workflow. User-identifying information has been redacted.*
+
+### What the Community Evidence Demonstrates
+
+Together, these records show that Bloodline RP extended beyond a private development environment into an operated community project with:
+
+- a **219-member Discord community** at the captured point in time;
+- a structured player application and verification process;
+- interview-based whitelist progression;
+- accepted and rejected application outcomes;
+- role and access management; and
+- ongoing community administration around the technical server.
+
+> **Privacy note:** Community screenshots are included as project evidence. Personal/user-identifying information has been redacted where appropriate.
 
 ## Repository Structure
 
@@ -281,7 +330,7 @@ Accordingly:
 
 ## Status
 
-This repository is being prepared as a retrospective technical case study. Screenshots, architecture notes, contribution evidence, and community evidence are being added in stages.
+This repository is a retrospective technical case study documenting the server's technical systems and community deployment. Additional architecture and contribution documentation may be added as the project record develops.
 
 ---
 
